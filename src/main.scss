@@ -1,0 +1,46 @@
+$primary-color: #007bff;
+.body{
+    margin:auto;
+}
+.Setting{
+    margin:30px;
+    margin-left:0px;
+    min-width: 250px;
+}
+
+.n,.m{
+    margin: auto;
+    min-width: 200px;
+    // width: auto;
+}
+.btn{
+    // margin: auto;
+    margin-top: 20px;
+    
+}
+.AllGrid{
+    
+    width: auto;
+    height: auto;
+    margin:0px;
+    margin-top: 50px;
+    .line{
+        padding: 0px;
+        height: 25px;
+        width: fit-content;
+        margin: auto;
+        
+            .mygrid{
+                min-width:25px;
+                min-height:25px;
+                border: .2px solid gray;
+                display: inline-block;
+            }
+        
+    }
+}
+select{
+    margin: 30px;
+    width: 100px;
+    height: 30px;
+}
